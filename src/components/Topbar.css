@@ -1,0 +1,61 @@
+.mainTopbar{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(70, 70, 70);
+    box-shadow: 0px 0px 30px -10px;
+    height:75px;
+}
+
+
+.mainTopbar .mainTopbarContents{
+    margin:0px;
+    width:1500px;
+    display:flex;
+    align-items: center;
+    justify-self: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+
+
+.mainTopbar .mainTopbarContents a {
+    text-decoration: none;
+    color:white;
+}
+
+.mainTopbar .mainTopbarContents .homeButtons{
+
+    display:flex;
+    align-items: center;
+    min-width: fit-content;
+}
+
+.mainTopbar .mainTopbarContents .homeButtons .logoHome{
+    margin-right: 50px;
+}
+
+
+.mainTopbar .mainTopbarContents .homeButtons .logoHome img{
+    width:50px;
+}
+
+.mainTopbar .mainTopbarContents .homeButtons .textHome{
+    color: white;
+    font-weight: bold;
+}
+
+.mainTopbar .mainTopbarContents .homeButtons .textHome span{
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.mainTopbar .mainTopbarContents .optionButtons{
+    display:flex;
+    align-items: center;
+    min-width: fit-content;
+}
+
+.mainTopbar .mainTopbarContents .optionButtons .upload{
+    margin-right:50px;
+}

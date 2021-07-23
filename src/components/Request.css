@@ -1,0 +1,171 @@
+.main{
+    display: grid;
+    grid-template-areas: 
+        "a a a a"
+        "b c d e";
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    margin-top:20px;
+}
+
+.title{
+padding:20px;
+font-size: 1.2em;
+font-weight: bold;
+border-bottom: solid 1px rgb(207, 207, 207);
+color:rgb(0, 0, 0);
+cursor: pointer;
+}
+
+.cont{
+color:rgb(102, 102, 102);
+cursor: pointer;
+}
+
+.mainContents1{
+    grid-area:a;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(207, 207, 207);
+    border-radius: 5px;
+    display:grid;
+    grid-template-areas: 
+        "mc1t mc1s mc1c";
+    align-content: center;
+    gap:20px;
+    padding:20px;
+    width:1400px;
+    box-shadow: 0px 0px 30px -13px;
+    cursor: pointer;
+}
+
+        .mainContents1 .title{
+            grid-area: mc1t;
+            display:grid;
+            align-content: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            border-right: solid 1px rgb(207, 207, 207);
+            border-bottom: none;
+        }
+
+        .mainContents1 .subject{
+            grid-area: mc1s;
+            text-align: center;
+            display: grid;
+            align-content: center;
+            font-size: 1.1em;
+            border-right: solid 1px rgb(207, 207, 207);
+            font-weight: bold;
+            color:rgb(105, 105, 105)
+        }
+
+        .mainContents1 .cont{
+            grid-area: mc1c;
+            text-align: left;
+            color:rgb(24, 24, 24);
+        }
+
+
+.mainContents2{
+    background-color: rgb(255, 255, 255);
+    grid-area:b;
+    border: solid 1px rgb(207, 207, 207);
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px -13px;
+    height:200px;
+}
+.mainContents2 .cont{
+    padding:10px;
+}
+
+
+
+.mainContents3{
+    grid-area:c;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(207, 207, 207);
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px -13px;
+    height: fit-content;
+}
+
+        .mainContents3 .rehear{
+            border-bottom: solid 1px rgb(221, 221, 221);
+            height: 80px;
+            display:grid;
+            align-content: center;
+            align-items: center;
+            padding:10px;
+            justify-content: center;
+            grid-template-columns: 0.25fr 0.75fr;
+            padding-left:20px;
+            font-weight: bold;
+        }
+
+        .mainContents3 .rehear img{
+            width:50px;
+            filter:opacity(50%);
+        }
+
+.mainContents4{
+    grid-area:d;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(207, 207, 207);
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px -13px;
+    height:fit-content;
+}
+
+
+.mainContents4 .cont4 {
+    border-bottom: solid 1px rgb(221, 221, 221);
+    height: 30px;
+    display:grid;
+    align-content: center;
+    align-items: center;
+    padding:10px;
+    justify-content: center;
+    padding-left:20px;
+    font-weight: bold;
+}
+
+.mainContents5{
+    grid-area:e;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(207, 207, 207);
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px -13px;
+}
+
+
+.mainContents5 .cont5{
+   display: grid;
+   grid-template-areas: 
+            "aa bb"
+            "aa cc";
+    grid-template-columns: 80px;
+    margin:20px;
+}
+
+.mainContents5 .cont5 img{ 
+    width:70px;
+    grid-area: aa;
+    max-width:fit-content;
+    
+}
+
+.mainContents5 .cont5 .contTitle5{ 
+    margin:0px;
+    grid-area: bb;
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.mainContents5 .cont5 .contCont5{ 
+    margin:0px;
+    grid-area: cc;
+    font-size: 0.9em;
+}
