@@ -50,11 +50,16 @@
     cursor: pointer;
 }
 
+.mainTopbar .mainTopbarContents .homeButtons .textHome span:hover{
+    color:lightgray;
+}
+
 .mainTopbar .mainTopbarContents .optionButtons{
     display:flex;
     align-items: center;
     min-width: fit-content;
 }
+
 
 .mainTopbar .mainTopbarContents .optionButtons .upload{
     margin-right:50px;

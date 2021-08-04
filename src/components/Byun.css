@@ -88,8 +88,31 @@ cursor:default;
     padding-bottom: 20px;
 }
 
+.plsbold{
+    font-weight: bold;
+}
+
+.forcontent td{
+    padding:30px;
+    padding-left:70px;
+    padding-right:100px;
+    word-break: keep-all;
+    text-align:left;
+}
+
+.goback{
+    font-size:0.8em;
+    font-weight: normal;
+    margin-bottom:20px;
+}
+
+.goback a{
+    color:black;
+    text-decoration: none;
+}
+
 .mainContents3 .title input{
-    margin-left: 1000px;
+    margin-left: 500px;
     cursor:pointer;
 }
 
@@ -146,33 +169,29 @@ td{
 }
 
 
-.pagenums{
-    justify-self: center;
-    margin-bottom: 30px;
-}
-
-.pagenums span{
-    margin:20px;
-    cursor:pointer;
-}
-
-.pagenums .nowpg{
-    font-weight:900;
-    color:black;
-    text-decoration: underline;
-}
-
-.searchbar{
-    justify-self: center;
-    margin-bottom: 20px;
-    display:grid;
-    grid-template-columns: 500px 100px;
-}
-
-.searchbar input{
-    height:30px;
-}
 
 tr:hover{
     background-color:rgb(241, 241, 241);
+}
+
+#guide{
+    text-align: left;
+}
+
+#byuntitle{
+    text-align: left;
+}
+
+.bottoms{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: space-between;
+}
+
+.bottoms input {
+    width:50px;
+}
+
+#lists{
+    margin-left:300px;
 }
