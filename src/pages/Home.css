@@ -1,5 +1,5 @@
 body{
-    background-image:url('E:\7.Jenny\0.나들목사이트\nadlemok\src\images\back8.jpg');
+    background:url(../images/back8.jpg) no-repeat;
     background-repeat:no-repeat;
     background-size: cover;
     background-attachment: fixed;
