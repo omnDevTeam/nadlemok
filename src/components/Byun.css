@@ -168,10 +168,12 @@ td{
     text-decoration: underline;
 }
 
+.plsbold:hover{
+    background-color: white;
+}
 
-
-tr:hover{
-    background-color:rgb(241, 241, 241);
+.forcontent:hover{
+    background-color:white;
 }
 
 #guide{
