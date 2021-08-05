@@ -49,7 +49,7 @@ function Request (){
                             </tr>
                             <tr>
                                 <td>20558</td>
-                                <td className='ttle'>계속 노래할 수 있을까요? 꿈을 이뤄가는게 쉽지 않아요</td>
+                                <td className='ttle'>공부만 하다가 오늘 오랜만에 쉬었어요.</td>
                                 <td>민선아</td>
                                 <td>2021.07.31</td>
                                 <td>9956</td>
@@ -80,7 +80,7 @@ function Request (){
                             </tr>
                             <tr>
                                 <td>20554</td>
-                                <td className='ttle'>사랑하는 사람이 떠나갔어요 죽을만큼 힘들 때 이겨내는 노래가 필요해요</td>
+                                <td className='ttle'>사랑하는 사람이 떠나갔어요 힘들 때 이겨내는 노래가 필요해요</td>
                                 <td>김정아</td>
                                 <td>2021.07.30</td>
                                 <td>1575</td>
